@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Account</title>
+    </head>
+    <body>
+        <div>
+            <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            My Account
+          </h1>
+          <h2 class="subtitle">
+            Edit and View Preferences
+          </h2>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+          <h1 class="title">My Preferences:</h1> <br></br>
+          <input onChange={this.saveVegan} type="checkbox" name="Password" /><strong>Vegan</strong> <br></br>
+          <input onChange={this.saveGF} type="checkbox" name="Password"/><strong>Gluten Free</strong> <br></br>
+          <input onChange={this.saveNut} type="checkbox" name="Password"/><strong>Nut Allergy</strong> <br></br>
+          <input onChange={this.saveKosher} type="checkbox" name="Password" /><strong>Kosher</strong>
+          {/* {...state.kosher===true ? checked = true : checked = false} */}
+        </div>
+      </section>
+    <section class="container">
+      <div class="buttons">
+      <button onClick = {this.handleUpdateAccount} class="button is-info">Update Preferences</button>
+      <button onClick = {this.handleDeleteAccount} class="button is-danger">Delete Account</button>
+    </div>
+    </section>
+          </div>
+    </body>
+</html>

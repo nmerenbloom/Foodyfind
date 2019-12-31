@@ -1,0 +1,279 @@
+
+
+.card-header{
+  color: navy;
+  font-size: 5vh;
+  font-style: oblique;
+  text-align: center;
+  background-color: darkmagenta;
+  /* font-family: fantasy; */
+}
+.card{
+  background-color: darkmagenta;
+}
+
+.k{
+  margin-left: 10px;
+}
+.n{
+  margin-left: 10px;
+}
+.v{
+  margin-left: 10px;
+}
+.cs{
+  margin-left: 10px;
+  padding-left:10px;
+}
+.gf{
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.spaceUp{
+  margin-top: -150px;
+  /* padding-top: 20px; */
+}
+#hero{
+  width: 60%;
+  padding-top:10px;
+  padding-left: 10px;
+  padding-bottom:10px;
+  background-color: whitesmoke;
+  float:left;
+  max-height:100px;
+  border-right: none;
+  font-size: 18.5px;
+  border-radius: 0px;
+}
+#search{
+  font-size: 18px;
+}
+.map {
+  width: 100vw;
+  min-height: 50vh;
+}
+#fullWidth2{
+  padding-top: 10px;
+  padding-left:10px;
+  padding-bottom:10px;
+  width: 40%;
+  background-color: whitesmoke;
+  float:left;
+  /* max-height:110px; */
+  height: 100px;
+  /* border-right: none; */
+  border-radius: 0px;
+}
+#filter_bar{
+  padding-top: 10px;
+  padding-left:10px;
+  padding-bottom:10px;
+  padding-right: 10px;
+  width: 60%;
+  background-color: whitesmoke;
+  float:right;
+  /* max-height:110px; */
+  height: 100px;
+  border-right: none;
+  border-radius: 0px;
+}
+.filter_options{
+  /* align-content: center; */
+  /* align-items: center; */
+  text-align: center;
+  padding-top: 15px;
+  font-size: 16px;
+  /* padding-bottom: 42px; */
+}
+.searchbar_content{
+  text-align: center;
+  padding-top: 5px;
+  font-size: 14px;
+}
+#moveDown{
+  margin-top:1.3vh;
+  color:white;
+}
+#center{
+  margin-top: 10px;
+  text-align: center;
+}
+#b{}
+.moveMap{
+  margin-top:20px;
+}
+/* .hero_window{
+  height: 500px;
+} */
+#hero_image{
+  height: 50px;
+  text-align: center;
+  text-justify: auto;
+  font-weight: 300;
+  color: rgb(10, 145, 235);
+  margin-top:-150px; 
+  /* padding-bottom:245px;  */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;  */
+}
+
+/* .hero-image{
+  background-image: url("image3.jpeg");
+  height: 50%;
+} */
+.center{
+  font-size: 25px;
+}
+.return{
+  text-align: center;
+}
+#filter_button{
+  margin-left: 25px;
+  margin-top: -10px;
+}
+
+.autocomplete{
+  justify-content: center;
+  align-items: center;
+}
+
+.start{
+  background-color: rgb(243, 247, 246);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #F7F7F7;
+}
+#home{
+  color: white;
+}
+.navbar{
+  color: white;
+  background-color: black;
+}
+
+
+.result {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 2em 1em;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgba(104, 11, 104, 0.842);
+  }
+
+  #criteria{
+      background-color: rgb(240, 236, 232);
+  }
+
+  #root {
+        background-image: url('/r_icons/morehead.jpg');
+        background-attachment: scroll; 
+  }
+  #formCard{
+    /* min-height: 1000px; */
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 390px;
+    height: 110vh;
+    float:left;
+    padding: 60px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+
+  }
+  #formCard:hover {
+    /* background-color: yellow; */
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .card_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    line-height: 1em;
+  }
+  .card-img-top{
+    /* -webkit-filter: blur(4px);filter: blur(4px); */
+    /* -webkit-filter: saturate(7); filter: saturate(3); */
+    height: 200px;
+    max-height: 200px;
+    padding-top: 10%;
+    border: 1px solid #ddd;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+  
+  
+  .result {
+    /* max-width: 100%; */
+    /* max-height: 200000px; */
+    position:relative;
+    margin-right:50vw;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 2em 1em;
+    border-radius: 8px;
+    /* overflow: hidden; */
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  #centered{
+    margin-left:25px;
+  }
+  
+  .result2 {
+    max-width: 50%;
+    padding-bottom: 20vh;
+    min-height: 200px;
+    margin-top:-421.2vh;
+    position:relative;
+    margin-left:50vw;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 2em 1em;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  #criteria{
+      background-color: peachpuff;
+  }
+
+  #root {
+        background-image: url('/r_icons/morehead.jpg');
+        background-attachment: scroll; 
+  }
+
+form {
+  width: 250px;
+  margin: 1px auto;
+  padding: 10px;
+}
+.progress:before {
+    content:attr(data-text);
+    position:absolute;
+    left:0;
+    right:0;
+  }
+  .progress {
+   text-align:center;
+   display:inline-block;
+   position:relative;
+  }
